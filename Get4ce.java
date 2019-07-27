@@ -1,5 +1,3 @@
-package b;
-
 import robocode.*;
 import java.awt.*;
 import static robocode.util.Utils.normalRelativeAngleDegrees;
