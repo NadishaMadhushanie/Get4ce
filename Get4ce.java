@@ -110,9 +110,9 @@ public class Get4ce extends AlphaBot {
 		} else if (e.getEnergy() > 4) {
 			fire(1);
 		} else if (e.getEnergy() > 2) {
-			fire(.5);
+			fire(1);
 		} else if (e.getEnergy() > .4) {
-			fire(.1);
+			fire(1);
 		}
 		ahead(40); // Ram him again!
 	}
