@@ -5,7 +5,7 @@
  * which accompanies this distribution, and is available at
  * https://robocode.sourceforge.io/license/epl-v10.html
  */
-
+package b;
 import robocode.*;
 
 import java.awt.*;
@@ -32,19 +32,16 @@ public class Get4ce extends BravoBot {
 		setScanColor(Color.yellow);
 
 		// Loop forever
-	ahead(40000);
-	
-			turnRight(90);
-			
-			//waitFor(new TurnCompleteCondition(this));
-			
-			turnLeft(180);
-		
-			//waitFor(new TurnCompleteCondition(this));
-		
-			turnRight(180);
-			
-			//waitFor(new TurnCompleteCondition(this));
+	while (true) {
+			// Tell the game that when we take move,
+			// we'll also want to turn right... a lot.
+			turnRight(10000);
+			// Ltimit our speed to 5
+			//maxVelocity(5);
+			// Start moving (and turning)
+			ahead(10000);
+			// Repeat.
+		}
 		
 	}
 
