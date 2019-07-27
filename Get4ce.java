@@ -1,4 +1,6 @@
-*
+
+
+/*
 import robocode.HitRobotEvent;
 import robocode.Robot;
 import robocode.ScannedRobotEvent;
