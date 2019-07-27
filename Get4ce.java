@@ -6,8 +6,6 @@
  * https://robocode.sourceforge.io/license/epl-v10.html
  */
 
-package a;
-
 import robocode.*;
 
 import java.awt.*;
